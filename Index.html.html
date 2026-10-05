@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Baby Daily Tracker</title>
+<style>
+body{margin:0;background:#faf8f5;color:#30302f;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+main{max-width:520px;margin:auto;padding:28px 18px 40px}
+h1{text-align:center;font-size:30px;margin:0 0 6px}
+.sub{text-align:center;color:#777;margin-bottom:25px}
+section{background:white;border:1px solid #e5dfd8;border-radius:20px;padding:18px;margin:0 0 16px}
+.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-size:19px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+label{display:block;cursor:pointer}
+input{position:absolute;opacity:0;width:1px;height:1px}
+.box{height:58px;border:2px solid #e5dfd8;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:27px;color:transparent}
+input:checked+.box{background:#e8f0ec;border-color:#7b9b8b;color:#7b9b8b}
+.small{font-size:14px;color:#777;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+<h1>Baby Daily Tracker</h1>
+<div class="sub">Tap each box as it happens</div>
+
+<section>
+<div class="head"><span>🍼 Pumping</span><span class="small">8 boxes</span></div>
+<div class="grid">
+<label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label>
+</div>
+</section>
+
+<section>
+<div class="head"><span>💩 Poops</span><span class="small">8 boxes</span></div>
+<div class="grid">
+<label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label>
+</div>
+</section>
+
+<section>
+<div class="head"><span>💧 Pees</span><span class="small">8 boxes</span></div>
+<div class="grid">
+<label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label><label><input type="checkbox"><span class="box">✓</span></label>
+</div>
+</section>
+</main>
+</body>
+</html>
